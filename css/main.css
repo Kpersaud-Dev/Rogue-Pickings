@@ -1,0 +1,170 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif ;
+  color:#000000;
+}
+
+#about, #menu, #locations, #gallery, #content {
+  height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+	height: 110px;
+	margin: 0 auto;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	padding: 38px 0;
+}
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+	float: right;
+	padding: 46px 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+#reviews, #specials, #contact {
+  border-top: 1px solid #eee;
+  width: 399px;
+	height: auto;
+	float: left;
+
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+  padding: 10px 0
+}
+
+#about h2 {
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+#about p {
+  line-height: 30px;
+}
+
+/***** Specials *****/
+
+#specials {
+  padding: 0;
+}
+
+#specials h3 {
+  font-family: 'Montserrat', ;
+  text-transform: uppercase;
+}
+
+#specials ul li {
+  list-style: none;
+}
+
+#specials ul li a {
+  color: #77a466;
+  text-decoration: none;
+  line-height: 40px;
+  padding-bottom: 100px;
+}
+
+#specials li {
+  padding: 10px, 0;
+}
+
+/***** Reviews *****/
+
+#reviews {
+  border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+  padding: 20px,0, 20px,0;
+
+}
+
+#reviews h3 {
+  font-family: 'Montserrat', ;
+  text-transform: uppercase;
+}
+
+#reviews p {
+  line-height: 25px;
+  padding-right: 60px;
+}
+
+/***** Contact *****/
+
+#contact {
+  font-family: 'Montserrat', ;
+  text-transform: uppercase;
+  float: left;
+  height: auto;
+
+}
+
+#contact ul li {
+  list-style: none;
+  line-height: 23px;
+  padding-left: 0px;
+
+
+}
+
+/***** Footer *****/
+
+footer {
+  height: 50px;
+  border-top: 3px solid #eee;
+  margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+footer h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+footer h2 span {
+  color: #77a466;
+  text-transform: lowercase;
+  font-family: 'Pinyon Script';
+}
